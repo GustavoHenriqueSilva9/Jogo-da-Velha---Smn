@@ -1,0 +1,118 @@
+@font-face{
+    font-family: FonteLogo ;
+    src: url('bubblegum-sans-regular.otf')
+    }
+
+body{
+    overflow: hidden;
+    margin:0;
+    background-color: #f57f17;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #bc5100;
+    height: 60px;
+    width:100%;
+    border-bottom: 1px solid black;
+}
+#jogodavelha{
+    font-size: 300%;  
+    font-family: 'FonteLogo',sans-serif ;
+    text-shadow: 1px 1px 1px  white;
+    text-align: center;
+}
+/*Filetes verticais*/
+.um{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    max-width: 400px;
+    margin: 0 auto;
+}
+#filete_vertical_1{
+    background-color: black;
+    height: 600px;
+    width: 20px;
+    border-radius: 25px;
+    margin-top:30px;
+}
+#filete_vertical_2{
+    background-color: black;
+    height: 600px;
+    width: 20px;
+    border-radius: 25px;
+    margin-top:30px;
+}
+
+/*----------------------*/
+/*Filetes  Horizontais */
+.dois{
+    display: flex;
+    align-items:center; 
+    flex-direction: column;
+    position: relative;
+    top:-420px;
+}
+#filete_horizontal_1{
+    background-color: black;
+    height: 20px;
+    width: 600px;
+    border-radius: 25px;
+    margin-bottom:180px;  
+}
+#filete_horizontal_2{
+    background-color: black;
+    height: 20px;
+    width: 600px;
+    border-radius: 25px;
+}
+.bloco{
+    background-color: rgba(0, 0, 0, 0.0.0.0);
+    /*background-color: white;*/
+    width: 190px;
+    height: 190px;
+    padding :10px;
+}
+#bloco1{
+    position: absolute;
+    left: 470px;
+}
+
+
+#bloco2{
+    position:absolute;
+    top: 80px;
+    margin: 14px
+}
+#bloco3{
+    position: absolute;
+    right: 440px;
+
+}
+#bloco4{
+    margin-top: 13px;
+}
+#bloco5{
+    margin-left: 205px;
+    position:absolute;
+    top:14px;
+}
+#bloco6{
+    margin-left: 410px;
+    position:absolute;
+    top:14px;
+}
+#bloco7{
+    position:absolute;
+    top: 220px;
+}
+#bloco8{
+    margin-left: 205px;
+    position:absolute;
+    top: 220px;
+}
+#bloco9{
+    margin-left: 410px;
+    position:absolute;
+    top: 220px;
+}
