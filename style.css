@@ -80,8 +80,8 @@ header{
 
 
 #bloco2{
-    position:absolute;
-    top: 80px;
+    position:relative;
+    top: -10px;
     margin: 14px
 }
 #bloco3{
@@ -115,4 +115,34 @@ header{
     margin-left: 410px;
     position:absolute;
     top: 220px;
+}
+
+.ganhador{
+    display: flex;
+    justify-content: center;
+}
+.nomebloco{
+    opacity: 0;
+}
+
+#ganhou{
+    /* background-color: black; */
+    display: flex;
+    justify-content:center; 
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#botao{
+   border-color: white;
+    background-color: black;
+    font-size: 20px;
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    top: 240px;
+    right: 50px;
+    text-decoration: none;
+
 }
